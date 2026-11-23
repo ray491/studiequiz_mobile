@@ -1,0 +1,7 @@
+Eerste versie.
+
+* Inloggen met e-mailadres en wachtwoord (Google optioneel).
+* Quizzen van je docent bekijken en maken.
+* Je score en antwoorden direct na afloop zien.
+* Chatten met je docent en klasgenoten.
+* Docentenscherm met klassen, quizzen en resultaten.

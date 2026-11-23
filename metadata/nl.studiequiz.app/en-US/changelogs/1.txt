@@ -1,0 +1,7 @@
+First release.
+
+* Sign in with e-mail and password (Google sign-in optional).
+* Browse and take the quizzes your teacher published.
+* See your score and answers right after finishing.
+* Chat with your teacher and classmates.
+* Teacher dashboard with classes, quizzes and results.

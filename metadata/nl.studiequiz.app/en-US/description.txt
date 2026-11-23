@@ -1,0 +1,17 @@
+StudieQuiz is the Android app for the StudieQuiz learning platform: quizzes, results and chat for students and teachers.
+
+With the app you can:
+
+* Sign in with your own StudieQuiz account (e-mail and password, or Google).
+* See the quizzes your teacher has published for your class.
+* Take a quiz on your phone and get your score straight away.
+* Review your answers and talk to your teacher and classmates in the chat.
+* As a teacher, open your dashboard to manage classes, quizzes and results.
+
+An account is required. You create one on the website at https://studiequiz.online, and the app uses the same account there.
+
+The app has no ads and no analytics or crash-reporting services. Quiz data is stored on the StudieQuiz server, which is free software in the same repository, but the app cannot be pointed at a different server, so it needs that service to work.
+
+Signing in with Google is optional and only works when Google Play services are installed. Without them you can still sign in with your e-mail address and password.
+
+The app is free and open source, licensed under the GPL-3.0-or-later.

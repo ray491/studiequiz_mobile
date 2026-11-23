@@ -1,0 +1,41 @@
+# F-Droid build recipe for StudieQuiz.
+# Copy this file to fdroiddata/metadata/nl.studiequiz.app.yml when submitting.
+# See ../README.md for the full checklist.
+#
+# Notes:
+# - commit is a tag; F-Droid accepts tags but the full 40-character commit hash
+#   is preferred. After tagging run:  git rev-list -n1 v1.0.0
+# - The release build is unsigned (no signingConfig in app/build.gradle), which
+#   is what F-Droid's buildserver expects.
+# - Version fields must match mobile_app/app/build.gradle; run ../check.sh.
+
+Categories:
+  - Education
+License: GPL-3.0-or-later
+AuthorName: StudieQuiz
+AuthorEmail: contact@studiequiz.online
+WebSite: https://studiequiz.online
+SourceCode: https://github.com/ray491/studiequiz
+IssueTracker: https://github.com/ray491/studiequiz/issues
+Changelog: https://github.com/ray491/studiequiz/releases
+
+AntiFeatures:
+  - TetheredNet
+
+RepoType: git
+Repo: https://github.com/ray491/studiequiz
+
+Builds:
+  - versionName: 1.0.0
+    versionCode: 1
+    commit: v1.0.0
+    subdir: mobile_app
+    gradle:
+      - "yes"
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: 1.0.0
+CurrentVersionCode: 1
+
+MaintainerNotes: TetheredNet because the API host is hardcoded to https://studiequiz.online and cannot be changed in the app; the server itself is free software and lives in the same repository. Google sign-in uses Play services and is optional - e-mail/password login works on devices without them, so NonFreeDep is not claimed.
